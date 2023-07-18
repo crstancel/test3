@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Resume Portfolio</title>
+  <link href="CSS/style.css" rel="stylesheet" type="text/css">
+  <style>
+    body {
+      background-image: url(images/backgroundtile.jpg);
+      color: white; /* Set the default text color to white */
+    }
+    
+    .container {
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    
+    nav {
+      background-image: none;
+      margin: auto;
+      list-style-type: none;
+      text-align: center;
+    }
+    
+    nav ul {
+      margin: 0;
+      padding: 0;
+    }
+    
+    nav li {
+      display: inline;
+    }
+    
+    nav a {
+      color: #FFFFFF;
+      text-decoration: none;
+      padding: 10px;
+    }
+
+    /* Customize the form text color */
+    form label,
+    form input,
+    form textarea {
+      color: white;
+    }
+    
+    /* Customize the submit button text color */
+    form input[type="submit"] {
+      color: black;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <img src="images/heroimg.jpg" alt="Hero Image">
+    <h1>Contact</h1>
+    <p>&nbsp;</p>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="aboutme.html">About Me</a></li>
+        <li><a href="music.html">Music</a></li>
+        <li><a href="art.html">Art</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+    <a href="mailto:crstancel1@my.waketech.edu">crstancel1@my.waketech.edu</a>
+    <p>July 4, 2023</p>
+    
+    <!-- Add the form below this line -->
+    <form action="submit_form.php" method="post">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required><br><br>
+      
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required><br><br>
+      
+      <label for="message">Message:</label><br>
+      <textarea id="message" name="message" rows="5" required></textarea><br><br>
+      
+      <input type="submit" value="Submit">
+    </form>
+  </div>
+</body>
+</html>
+
+
+

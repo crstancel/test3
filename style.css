@@ -1,0 +1,12 @@
+body { background: url("../Images/background_tile.jpg"); }
+body h1 {
+    color: #1DE5F1;
+}
+
+tbody tr td {
+    color: #FFFFFF;
+}
+
+body p {
+    color: #92E4F7;
+}

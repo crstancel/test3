@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Personal introduction</title>
+  <link href="CSS/style.css" rel="stylesheet" type="text/css">
+  <style>
+    body {
+      background-image: url(images/backgroundtile.jpg);
+    }
+    
+    .container {
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    
+    nav {
+      background-image: none;
+      margin: auto;
+      list-style-type: none;
+      text-align: center;
+    }
+    
+    nav ul {
+      margin: 0;
+      padding: 0;
+    }
+    
+    nav li {
+      display: inline;
+    }
+    
+    nav a {
+      color: #FFFFFF;
+      text-decoration: none;
+      padding: 10px;
+    }
+    
+    .image-grid {
+      display: grid;
+      grid-template-columns: 167px 287px 160px 586px;
+      grid-gap: 10px;
+    }
+    
+    .image-cell {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    
+    .image-cell img {
+      max-width: 100%;
+      height: auto;
+    }
+    
+    .image-description {
+      text-align: center;
+      width: 100%;
+    }
+    
+    .drink-water-image {
+      max-width: 100%;
+      height: auto;
+    }
+    
+    p.date {
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <img src="images/heroimg.jpg" alt="Hero Image">
+    <h1>Welcome</h1>
+    <p>&nbsp;</p>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="aboutme.html">About Me</a></li>
+        <li><a href="music.html">Music</a></li>
+        <li><a href="art.html">Art</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+    <div class="image-grid">
+      <div class="image-cell">
+        <img src="images/main1.jpg" alt="Image 1">
+      </div>
+      <div class="image-cell">
+        <p>Thank you for taking time to visit my website</p>
+      </div>
+      <div class="image-cell">
+        <img src="images/main4.jpg" alt="Image 4">
+      </div>
+      <div class="image-cell image-description">
+        <p>Images were taken on my iPhone or sourced via the internet and edited</p>
+      </div>
+      <div class="image-cell">
+        <img src="images/main2.jpg" alt="Image 2">
+      </div>
+      <div class="image-cell"></div>
+      <div class="image-cell">
+        <img src="images/main3.jpg" alt="Image 3" class="drink-water-image">
+      </div>
+      <div class="image-cell image-description">
+        <p>Remember to drink water</p>
+      </div>
+    </div>
+    <p class="date">July 4, 2023</p>
+  </div>
+</body>
+</html>

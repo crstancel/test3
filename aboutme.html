@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Resume Portfolio</title>
+  <link href="CSS/style.css" rel="stylesheet" type="text/css">
+  <style>
+    body {
+      background-image: url(images/backgroundtile.jpg);
+    }
+    
+    .container {
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    
+    nav {
+      background-image: none;
+      margin: auto;
+      list-style-type: none;
+      text-align: center;
+    }
+    
+    nav ul {
+      margin: 0;
+      padding: 0;
+    }
+    
+    nav li {
+      display: inline;
+    }
+    
+    nav a {
+      color: #FFFFFF;
+      text-decoration: none;
+      padding: 10px;
+    }
+    
+    /* New CSS Elements */
+    
+    .container img {
+      width: 100%;
+      max-width: 400px;
+      height: auto;
+    }
+    
+    h1 {
+      margin-top: 20px;
+      font-size: 24px;
+    }
+    
+    .resume-table {
+      width: 100%;
+      margin-top: 20px;
+      border-collapse: collapse;
+    }
+    
+    .resume-table td {
+      padding: 10px;
+    }
+    
+    .resume-table img {
+      width: 100%;
+      max-width: 200px;
+      height: auto;
+    }
+    
+    .resume-table .about {
+      vertical-align: top;
+    }
+    
+    p {
+      margin: 10px 0;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <img src="images/heroimg.jpg" alt="Hero Image">
+    <h1>About Me</h1>
+    <p>&nbsp;</p>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="aboutme.html">About Me</a></li>
+        <li><a href="music.html">Music</a></li>
+        <li><a href="art.html">Art</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+    <p>&nbsp;</p>
+   <table class="resume-table">
+      <tbody>
+        <tr>
+          <td><img src="images/aboutme1.jpg" alt=""></td>
+          <td class="about">Born in Raleigh, North Carolina on June 22, 1993. Apple sauce and gramcrackers were a staple</td>
+          <td><img src="images/aboutme2.jpg" alt="" width="90"></td>
+          <td class="about">I'm 6'2'', 190 lbs. I enjoy reading honest product reviews on Amazon</td>
+          <td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td><img src="images/aboutme3.jpg" alt=""></td>
+          <td class="about">I spent time in the military from 2013 to 2017. You meet some interesting people as a solider</td>
+          <td><img src="images/aboutme4.jpg" alt=""></td>
+          <td class="about">In the year 2000, I was convinced that in 2023 we would have the technology for flying automobiles.</td>
+          <td>&nbsp;</td>
+        </tr>
+      </tbody>
+    </table>
+    <p>July 4, 2023</p>
+  </div>
+</body>
+</html>
